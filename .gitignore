@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/IO1RouteLib
+/IO1RouteLib/bin/Debug/net5.0
+/IO1RouteLib/obj
+/IO1RouteLib.Test/bin/Debug/net5.0
+/IO1RouteLib.Test/obj

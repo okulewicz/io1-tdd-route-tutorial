@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IO1RouteLib", "IO1RouteLib\IO1RouteLib.csproj", "{775F907F-3C7C-401C-87DA-40F4BF546FF5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IO1RouteLib.Test", "IO1RouteLib.Test\IO1RouteLib.Test.csproj", "{4BC2F669-A201-4619-88AE-07ED496ED5CB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{775F907F-3C7C-401C-87DA-40F4BF546FF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{775F907F-3C7C-401C-87DA-40F4BF546FF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{775F907F-3C7C-401C-87DA-40F4BF546FF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{775F907F-3C7C-401C-87DA-40F4BF546FF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BC2F669-A201-4619-88AE-07ED496ED5CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BC2F669-A201-4619-88AE-07ED496ED5CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BC2F669-A201-4619-88AE-07ED496ED5CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BC2F669-A201-4619-88AE-07ED496ED5CB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {756B5133-7D8F-4700-8CA8-DA5822425A62}
+	EndGlobalSection
+EndGlobal
