@@ -1,3 +1,4 @@
+using IO1RouteLib.DistanceProviders;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace IO1RouteLib.Test
@@ -9,7 +10,8 @@ namespace IO1RouteLib.Test
         public void CorrectRouteLength()
         {
             double expectedEmptyRouteLength = 0.0;
-            Route route = new Route();
+            IDistanceCalculator distanceCalculator = new DistanceCalculator();
+            Route route = new Route(distanceCalculator);
             Assert.AreEqual(expectedEmptyRouteLength, route.Length);
 
             double expectedRouteWithSinglePointLength = 0.0;

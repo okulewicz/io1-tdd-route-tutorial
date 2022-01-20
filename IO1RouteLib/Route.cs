@@ -6,14 +6,14 @@ namespace IO1RouteLib
     public class Route
     {
         List<Location> _waypoints;
-        private DistanceCalculator _distanceCalculator;
+        private IDistanceCalculator _distanceCalculator;
 
         public double Length { get; private set; }
         public int WaypointsCount => _waypoints.Count;
 
-        public Route()
+        public Route(IDistanceCalculator distanceCalculator)
         {
-            _distanceCalculator = new DistanceCalculator();
+            _distanceCalculator = distanceCalculator;
             _waypoints = new List<Location>();
         }
 
